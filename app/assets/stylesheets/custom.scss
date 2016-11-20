@@ -31,14 +31,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 5em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: black;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
@@ -72,6 +73,8 @@ p {
 
 footer {
   margin-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
@@ -92,4 +95,11 @@ footer {
       margin-left: 15px;
     }
   }
+}
+
+.container-fluid {
+  background: image-url('bg1.jpg') no-repeat;
+  background-size: 100% 160%;
+  padding-top: 25px;
+  padding-bottom: 100px;
 }
