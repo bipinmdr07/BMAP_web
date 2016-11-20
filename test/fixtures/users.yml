@@ -1,0 +1,4 @@
+bipin:
+  name: Bipin Manandhar
+  email: kubipin07@gmail.com
+  password_digest: <%= User.digest('password') %>
